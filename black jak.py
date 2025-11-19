@@ -59,6 +59,7 @@ while sum_father_cards <17:
     father_cards.append(cards.pop())
     sum_father_cards += father_cards[i].score
     i=i+1
+print(sum_father_cards)
 if sum_father_cards > 21:
     print("you win")
     print(sum_father_cards)
